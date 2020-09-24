@@ -8,6 +8,6 @@ require (
 )
 
 replace (
-	bou.ke/monkey => ../../../../bouk/monkey
+	bou.ke/monkey => ../../../monkey
 	github.com/aimager/gop => ../../
 )
