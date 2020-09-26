@@ -28,6 +28,15 @@ func (c *Cong) After(args []reflect.Value) {
 }
 func (c *Cong) Around(fn reflect.Value, args []reflect.Value) []reflect.Value {
 	fmt.Println("around")
+	// fnElem := fn.Elem()
+	// fmt.Println(unsafe.Pointer(fn.Pointer()))
+	// fnE := fn.Elem()
+	// fmt.Println(unsafe.Pointer(fnE.Pointer()))
+	// fnC := fnE.Convert(reflect.TypeOf(test))
+	// // fnC.Call(args)
+	// fnC.Call(args)
+	// fmt.Println(unsafe.Pointer(fn.Pointer()))
+	// fnElem.Call(args)
 	fn.Call(args)
 	return []reflect.Value{}
 }
