@@ -1,5 +1,7 @@
 # GOP
 
+🇬🇧 English | 🇨🇳 [中文](README_zh.md)
+
 ## Install
 
 `go get github.com/AImager/gop`
