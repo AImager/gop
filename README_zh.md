@@ -1,10 +1,10 @@
 # GOP
 
-## Install
+## 安装
 
 `go get github.com/AImager/gop`
 
-## Usage
+## 使用
 
 在方法上注册切点
 
@@ -96,10 +96,10 @@ func main() {
 
 ```
 
-## Contributing
+## 贡献者
 
 PRs accepted.
 
-## License
+## 协议
 
 MIT © AImager
